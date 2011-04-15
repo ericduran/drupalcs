@@ -1,5 +1,5 @@
 ## Drupal Code Sniffer ##
-- - -
+
 
 ###About###
 ------------
