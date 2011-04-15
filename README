@@ -1,1 +1,23 @@
-At first I started this project from a fork but quickly realized I rather just start from scratch :-/
+## Drupal Code Sniffer ##
+- - -
+
+###About###
+------------
+This is a Coding Standard for [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer)
+
+Installation
+------------
+You will need to have [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer) installed.
+    
+    pear install PHP_CodeSniffer
+
+Once you have PHP_CodeSniffer install you will need to add drupalcs into the Standards directory for CodeSniffer.
+
+On a mac I usually just do as below:
+
+    ln -s /usr/lib/php/PHP/CodeSniffer/Standards/ /path/to/drupalcs
+
+Usages
+---------
+
+    phpcs --standard=drupalcs index.php
