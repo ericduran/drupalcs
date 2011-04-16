@@ -15,7 +15,7 @@ Once you have PHP_CodeSniffer install you will need to add drupalcs into the Sta
 
 On a mac I usually just do as below:
 
-    ln -s /usr/lib/php/PHP/CodeSniffer/Standards/ /path/to/drupalcs
+    ln -s /path/to/drupalcs /usr/lib/php/PHP/CodeSniffer/Standards/
 
 Usages
 ---------
