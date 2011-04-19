@@ -27,3 +27,22 @@ ELSE if($condition3 && $condition4) {
 else{
   return;
 }
+
+
+switch($condition) {
+  case 1:
+    return;
+    break;
+
+  case 2:
+    return;
+    break;
+
+  default:
+    return;
+}
+
+
+do{
+  $actions;
+} while ($condition);
