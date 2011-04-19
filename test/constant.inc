@@ -10,4 +10,4 @@ $string = NULL;
 
 $string = true;
 $string = false;
-$string = null; 
+$string = null;
