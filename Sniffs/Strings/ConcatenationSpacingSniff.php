@@ -5,7 +5,7 @@
  *
  * Always use a space between the dot and the concatenated parts to improve readability.
  *
- * @url http://drupal.org/coding-standards#concat
+ * @link http://drupal.org/coding-standards#concat
  */
 class drupalcs_Sniffs_Strings_ConcatenationSpacingSniff implements PHP_CodeSniffer_Sniff {
     /**
