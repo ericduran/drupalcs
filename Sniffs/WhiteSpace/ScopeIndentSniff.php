@@ -12,7 +12,7 @@ class drupalcs_Sniffs_WhiteSpace_ScopeIndentSniff extends Generic_Sniffs_WhiteSp
      *
      * @var int
      */
-    public $indent = 2; 
+    public $indent = 2;
 
 }
 

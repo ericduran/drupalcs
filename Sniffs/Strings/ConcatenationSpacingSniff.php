@@ -20,7 +20,7 @@ class drupalcs_Sniffs_Strings_ConcatenationSpacingSniff implements PHP_CodeSniff
   /**
    * Processes this test, when one of its tokens is encountered.
    */
-  public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr) {        
+  public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr) {
     $tokens = $phpcsFile->getTokens();
     if ($tokens[($stackPtr - 1)]['code'] !== T_WHITESPACE || $tokens[($stackPtr + 1)]['code'] !== T_WHITESPACE) {
       $message = 'Concat operator must be surrounded by spaces';
