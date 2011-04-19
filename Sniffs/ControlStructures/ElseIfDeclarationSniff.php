@@ -21,7 +21,7 @@ class drupalcs_Sniffs_ControlStructures_ElseIfDeclarationSniff implements PHP_Co
    */
   public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr) {
     $tokens = $phpcsFile->getTokens();
-    if ($tokens[$stackPtr]['code'] == T_ELSE && $tokens[$stackPtr +1]['code'] == T_WHITESPACE 
+    if ($tokens[$stackPtr]['code'] == T_ELSE && $tokens[$stackPtr +1]['code'] == T_WHITESPACE
       && $tokens[$stackPtr +2]['code'] == T_IF) {
       $error = 'Usage of ELSE IF not allowed; use ELSEIF instead';
       $phpcsFile->addError($error, $stackPtr, 'NotAllowed');
