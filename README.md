@@ -13,21 +13,9 @@ You will need to have [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSnif
 
 Once you have PHP_CodeSniffer install you will need to add this drupalcs/ directory into the Standards/ directory for CodeSniffer.
 
-    ln -s /path/to/drupalcs/ /path/to/global/PEAR/CodeSniffer/Standards/
-
-On a mac I usually just do :
-
-    ln -s /path/to/drupalcs/ /usr/lib/php/PHP/CodeSniffer/Standards/
-
-On Red Hat I usually just do :
-
-    sudo ln -s /path/to/drupalcs/ /usr/share/pear/PHP/CodeSniffer/Standards/
-
-On Ubuntu I usually just do :
-
-    sudo ln -s /path/to/drupalcs/ /usr/share/php/PHP/CodeSniffer/Standards/
+    sudo ln -sv /path/to/drupalcs/ $(pear config-get php_dir)/PHP/CodeSniffer/Standards
 
 Usages
 ---------
 
-    phpcs --standard=drupalcs index.php
+    phpcs --standard=drupalcs /file/to/test/index.php
