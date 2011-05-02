@@ -11,7 +11,7 @@ You will need to have [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSnif
 
     pear install PHP_CodeSniffer
 
-Once you have PHP_CodeSniffer install you will need to add this drupalcs/ directory into the Standards/ directory for Code
+Once you have PHP_CodeSniffer install you will need to add this drupalcs/ directory into the Standards/ directory for CodeSniffer.
 
     ln -s /path/to/drupalcs/ /path/to/global/PEAR/CodeSniffer/Standards/
 
