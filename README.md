@@ -3,7 +3,7 @@
 
 ###About###
 ------------
-This is a Coding Standard for [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer)
+This is the a Coding Standard for [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer), specifically for [Drupal Coding Standard](http://drupal.org/coding-standards).
 
 Installation
 ------------
