@@ -15,7 +15,17 @@ Once you have PHP_CodeSniffer install you will need to add this drupalcs/ direct
 
     sudo ln -sv /path/to/drupalcs/ $(pear config-get php_dir)/PHP/CodeSniffer/Standards
 
+If you don't have root access, or just don't want to install drupalcs system-wide, you can always point to the drupalcs ruleset.xml file, directly.
+eg.: For convenience, run this in your shell (or on start-up with ~/.bashrc):
+
+    alias drupalcs='phpcs --standard=/path/to/local/drupalcs/ruleset.xml'
+
 Usages
 ---------
 
     phpcs --standard=drupalcs /file/to/test/index.php
+
+
+If you used the above "local" example and have a shell alias, just run:
+
+    drupalcs /file/to/test/index.php
