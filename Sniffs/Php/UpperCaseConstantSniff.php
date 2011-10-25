@@ -7,6 +7,13 @@
 class drupalcs_Sniffs_PHP_UpperCaseConstantSniff extends Generic_Sniffs_PHP_LowerCaseConstantSniff {
 
   /**
+   * A list of tokenizers this sniff supports.
+   *
+   * @var array
+   */
+  public $supportedTokenizers = array('PHP');
+
+  /**
    * Processes this sniff, when one of its tokens is encountered.
    */
   public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr) {
