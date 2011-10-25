@@ -7,7 +7,7 @@ class drupalcs_Sniffs_WhiteSpace_LineEndingSniff implements PHP_CodeSniffer_Snif
    *
    * @var array
    */
-  public $supportedTokenizers = array('PHP','JS','CSS');
+  public $supportedTokenizers = array('PHP');
 
   /**
    * Returns an array of tokens this test wants to listen for.
