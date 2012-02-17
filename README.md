@@ -1,6 +1,15 @@
 ## Drupal Code Sniffer ##
 
 
+_____
+_____
+#Development has moved#
+This coding standard is not being maintained over at http://drupal.org/project/drupalcs
+The drupal.org version already contains more sniff and it's a lot more mature.
+Thanks.
+_____
+_____
+
 ###About###
 ------------
 This a Coding Standard for [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer), specifically for [Drupal Coding Standard](http://drupal.org/coding-standards).
