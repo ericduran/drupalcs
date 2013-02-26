@@ -7,6 +7,9 @@ _____
 This coding standard is not being maintained over at http://drupal.org/project/drupalcs
 The drupal.org version already contains more sniff and it's a lot more mature.
 Thanks.
+
+#Development has moved again#
+I'm moving stuff back in here!!!
 _____
 _____
 
